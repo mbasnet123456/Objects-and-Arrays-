@@ -1,0 +1,67 @@
+.student-list-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: #f7f7f7;
+}
+
+.student-list-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.student-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.student-info {
+  font-weight: bold;
+}
+
+.student-courses {
+  margin-top: 5px;
+}
+
+.student-info::after {
+  content: ":";
+}
+
+.student-courses::after {
+  content: ":";
+}
+
+.fullscreen-center {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  overflow: auto;
+  color: #fff;
+}
+
+.course-list-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.course-list-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.course-item {
+  margin: 10px 0;
+}
